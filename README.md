@@ -1,2 +1,2 @@
 # Chefmax
-A Robot that cooks for the disabled
+A Robot that cooks for everyone
