@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
 		<title>
@@ -6,9 +6,43 @@
 		</title>
 		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
 	</head>
-	<body bgcolor="111111">
-	<p>
-		Chefmax
-	</p>
-	</body>
+		<body class="dark">
+			<div class="body">
+				<div>
+					<p class="title">
+						Chefmax
+					</p>
+					<p class="text">
+						The First User Friendly Cooking Robot
+					</p>
+				</div>
+			</div>
+		</body>
 </html>
+<style>
+p.title {
+	color: #aaaaaa;
+	font-family: Arial;
+	font-size: 90px;
+}
+p.text {
+	color: #555555;
+	font-family: Arial;
+	font-size: 30px;
+}
+p {
+	margin: auto;
+}
+body.dark {
+	background-color: #111111;
+}
+div.body {
+	text-align: center;
+	height: 100vh;
+	display: flex;
+  	align-items: center;
+}
+div {
+	width: 100%;
+}
+</style>
