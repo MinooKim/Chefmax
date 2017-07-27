@@ -7,10 +7,12 @@
 		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
 	</head>
 		<body class="dark">
-			<a href="index.html" class="button button4"> Home </a>
-			<a href="Market.html" class="button button4"> Market Analysis </a>
-			<a href="finance.html" class="button button4"> Financial and Budget </a>
-			<a href="about.html" class="button button4"> About </a>
+			<ul>
+  				<li><a href="index.html">Home</a></li>
+ 				<li><a href="about.html">About</a></li>
+ 				<li><a href="market.html">Market Analysis</a></li>
+  				<li><a href="finance.html">Financial and Budget</a></li>
+			</ul>
 			<div class="body">
 				<div>
 					<p class="title">
@@ -19,9 +21,11 @@
 					<p class="text">
 						The First User Friendly Cooking Robot
 					</p>
+					<img src="logod.jpg" alt="Chefmax" style="width: 200px;height: 200px;">
 					<br>
 					<br>
-					<img src="chefmaxb.jpg" alt="Chefmax" style="width: 200px;height: 228px;">
+					<br>
+					<br>
 				</div>
 			</div>
 		</body>
@@ -31,6 +35,7 @@ p.title {
 	color: #aaaaaa;
 	font-family: Arial;
 	font-size: 90px;
+	margin: 0px;
 }
 p.text {
 	color: #555555;
@@ -42,6 +47,7 @@ p {
 }
 body.dark {
 	background-color: #111111;
+	margin: 0px;
 }
 div.body {
 	text-align: center;
@@ -52,25 +58,29 @@ div.body {
 div {
 	width: 100%;
 }
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 20px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 30px;
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
     font-family: Arial;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+    font-size: 20px;
 }
-.button4 {
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
     background-color: #555555;
-    color: black;
-}
-.button4:hover {
-	background-color: #aaaaaa;
 }
 </style>
