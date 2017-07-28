@@ -1,0 +1,57 @@
+p.title {
+	color: #aaaaaa !important;
+	font-size: 90px;
+}
+h1.title {
+    color: #aaaaaa !important;
+    font-size: 40px;
+}
+p.text {
+=	font-size: 20px;
+}
+p.largeText {
+    font-size: 30px;
+}
+p, h1, th {
+    color: #ffffff;
+    font-family: Arial;
+    margin: 10px;
+}
+th {
+    border: 1px solid white;
+}
+body.dark {
+	background-color: #111111;
+	margin: 0px;
+}
+div.body {
+	text-align: center;
+	height: 100vh;
+	display: flex;
+  	align-items: center;
+}
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+ul.nav > li {
+    float: left;
+}
+
+ul.nav > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+ul.nav > li > a:hover {
+    background-color: #555555;
+}
