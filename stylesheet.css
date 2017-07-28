@@ -12,7 +12,7 @@ p.text {
 p.largeText {
     font-size: 30px;
 }
-p, h1, th {
+p, h1, th, li {
     color: #ffffff;
     font-family: Arial;
     margin: 10px;
@@ -42,6 +42,7 @@ ul.nav {
 
 ul.nav > li {
     float: left;
+    margin: 0px;
 }
 
 ul.nav > li > a {
